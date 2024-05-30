@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant About Us Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;background-image: url(/images/image6.jpg);background-repeat: no-repeat;background-size: cover;
+        
+        }
+        .about-section {
+            background-image: url('your-background-image.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            color: rgb(221, 214, 214);
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+        }
+        .about-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text readable */
+        }
+        .about-content {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            z-index: 1;
+        }
+        .about-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body">
+
+    <!-- About Us Section -->
+    <div class="about-section">
+        <div class="about-content">
+             <h1>About Us</h1>
+            <p><h3>Welcome to Family Food, where culinary excellence meets a warm, inviting atmosphere. Our story began with a passion for fresh, flavorful ingredients and a commitment to exceptional hospitality. From farm to table, we take pride in serving dishes that delight the senses and create memorable dining experiences.</p>
+            <p>At [Restaurant Name], we believe in the art of food and the joy of sharing it with others. Our chefs craft each dish with care, using locally sourced ingredients to bring you the best flavors of the season. Join us for a meal, and become part of our family.</h3></p>
+        </div>
+    </div>
+
+</body>
+</html>

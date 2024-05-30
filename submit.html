@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Shop Order Form</title>
+  <style>
+    body { 
+ background-color: rgb(148, 227, 150); 
+ background-image:url(images11.jpg); 
+ background-repeat: no-repeat; 
+ background-size: cover; 
+ font-size: 32px; 
+ } 
+  input[type="Enter"] {
+      padding: 10px 20px; 
+      font-size: 16px; 
+    }
+  </style>
+</head>
+<body>
+    <h1 align=center style="color: rgb(19, 18, 18);">Thank You For Visiting us</h1>  
+  <h2>Order Form</h2>
+  <form action="/submit_order" method="post">
+    <label for="medicine_name">Medicine Name:</label>
+    <input type="text" id="medicine_name" name="medicine_name" required><br><br>
+    
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" required><br><br>
+    
+    <label for="customer_name">Your Name:</label>
+    <input type="text" id="customer_name" name="customer_name" required><br><br>
+    
+    <label for="contact">Contact Number:</label>
+    <input type="text" id="contact" name="contact" required><br><br>
+    
+    <button type="button"><a href="medical.html">>SUBMIT</a></button> 
+  </form>
+</body>
+</html>

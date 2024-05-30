@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation - Medical Shop</title>
+   
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #101111;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    background-color: white;
+    max-width: 800px;
+    margin: 2em auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultation {
+    text-align: center;
+}
+
+.consultation h1 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.consultation p {
+    color: #666;
+    margin-bottom: 2em;
+}
+
+.consultation-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultation-form label {
+    margin-top: 1em;
+    color: #333;
+}
+
+.consultation-form input, .consultation-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.consultation-form button {
+    background-color: #080808;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.consultation-form button:hover {
+    background-color: #131413;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #111211;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tttt.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="consultation.html">Consultation</a></li>
+                <li><a href="submit.html">Submit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="consultation">
+            <h1>Schedule a Consultation</h1>
+            <p>Fill out the form below to schedule a consultation with one of our healthcare professionals. We will get back to you to confirm your appointment.</p>
+            
+            <div class="consultation-form">
+                <form action="submit_consultation.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    
+                    <label for="time">Preferred Time:</label>
+                    <input type="time" id="time" name="time" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Medical Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

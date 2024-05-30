@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Medical Shop</title>
+    
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(249, 244, 244);
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    background-color: rgb(197, 169, 169);
+    max-width: 800px;
+    margin: 2em auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-us h1 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.contact-info, .contact-form {
+    margin: 2em 0;
+}
+
+.contact-info p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-top: 1em;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #121812;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #131413;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #0d100d;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="tttt.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-us">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need assistance, please feel free to reach out to us using the information below or by filling out the contact form.</p>
+            
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong>shree medical shop katol-441302</p>
+                <p><strong>Phone:</strong> +918329453234</p>
+                <p><strong>Email:</strong> @shreemedicalshop.com</p>
+            </div>
+
+            <div class="contact-form">
+                <h2>Contact Form</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Medical Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

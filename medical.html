@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384- 
+    QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"> 
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar .brand-title {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 1rem;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.navbar-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.toggle-button {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+ (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-links ul li {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+    .toggle-button {
+        display: block;
+    }
+}
+
+</style>
+<body>
+    <nav class="navbar">
+        <div class="brand-title">Medical Shop</div>
+       
+        
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="tttt.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+  
+
+ <body> 
+
+ <!-- carosal start --> 
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1.jpg" class="d-block w-100" alt="..." height="550px" bottom="0px">
+    
+      </div>
+      <div class="carousel-item">
+        <img src="image2.jpg" class="d-block w-100" alt="..." height="550px" bottom="0px">
+    
+      </div>
+      <div class="carousel-item">
+        <img src="image3.jpg" class="d-block w-100" alt="..." height="550px" bottom="0px">
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ <!-- carosal end --> 
+ <!-- cards start --> 
+ <div class="container"> 
+ <h3 class="display-3"> Our services</h3> 
+ <div class="row gy-3"> 
+ <div class="col-sm-4"> 
+ <div class="card" style="width: 18rem;"> 
+ <img src="medi1.jpg" class="card-img-top" alt="..."> 
+ <div class="card-body"> 
+ <h5 class="card-title">Medicine</h5> 
+ <p class="card-text">Capsules are easier to swallow and are used by manufacturers when the drug cannot be compacted into a solid tablet. </p> 
+ <a href="https://www.amazon.in/Abha-Capsule-Ayurvedic-medicine-Osteoporosis/dp/B09LYWD1MV/ref=sr_1_6?crid=23F2LZ35U3TOG&dib=eyJ2IjoiMSJ9.Is-WFcGORr_XiHp_Rz1_vLP5otAvvjjD9vAj5fqgKZAX6nIZCCSAbc2TWaJRTGj7_UpcAvY-7ZL_mj-TfdmCkLYj3RD6GfWS67iJCXTwEM0yy6FGiotxl80z--2vgbUN_4-_KG1fwQqBNFJbk-05mqCyrmh38K9UZ0Wu9mqZPZivUZOrqNEALeVb3k9c9c-hfHz477FQRQwpxTEdoH49_bTusuZNVHD34izUc6VRwY_zniD4Akl1xn7Z-XooBoTjh--cU6mIfbc2pJruYjOOM1cqh_EAnbeDWXVQlJ9QIck.1wkQeYhu85VTPUd4-42AKNJEpGX_pPnl5GlmmqT93VE&dib_tag=se&keywords=capsule+medicine&qid=1717061070&sprefix=capsulemedicine%2Caps%2C421&sr=8-6" class="btn btn-primary">Buy Now</a> 
+ </div> 
+ </div>
+
+ </div> 
+ <div class="col-sm-4"> 
+ <div class="card" style="width: 18rem;"> 
+ <img src="medi2.jpg" class="card-img-top" alt="..."> 
+ <div class="card-body"> 
+ <h5 class="card-title">Medicine</h5> 
+ <p class="card-text"> Some cough syrups contain ingredients that help to soothe a sore throat and relieve discomfort </p> 
+ <a href="https://www.amazon.in/DABUR-Dabur-Honitus-Syrup-100ml/dp/B00JHDE96M/ref=sr_1_7?crid=13848VCH7IGRG&dib=eyJ2IjoiMSJ9.5Xdjm03I3HamFSmHPJw0q7lLt2M-pZC65RxntJAtXZRcmO4WSFnZs42LNMNfM2gr0WgrrP7IaAZgdVTYYzzwiwk7t_Sab40uOeJ5-TtinN0if1juO-69HoshQvLQ7IxFpGtwGwa5SWDL4BU9LmacV6kDFkX6V_zwJ5msDEEpULowAPqPE4xwYkt5bWdQ5uDKYAQe9Y61MIslBMZY81Wo-r2BvFS98zJOL1hh-VN9uKcUTpbTwpcVes4ZQIlTgO54royz1Wn1wZCgGjIRJij_JrGaIhI8MnB07t_uIQzd1-g.ojWkc4Kt-8IZj8FQTTTs9BZ3CBWC_kWksuxweXQ6KSY&dib_tag=se&keywords=cough+syrup&qid=1717061678&sprefix=cough+%2Caps%2C368&sr=8-7a-Pilex-Tablets-60-Count/dp/B07D3ZN77Z/ref=sr_1_7?crid=2WOK5W097YWMW&dib=eyJ2IjoiMSJ9.grpvJwfoCFvbBTo1AbS7cjzriytcULRL2_m2En6ubnHt6oPhyL4CB62pMhE1PcENhEDxnCXLqwTj7yoO7LQ69qSXzO2SZsxIWd14h4B3PWqCYj-vHF-g4UWu8H5ET5TFBW9cjoZ2vV_QaLMnhEP8wnWfLS47qRAGY0fsy158ZLU0yRQVi_oEavfyjtA-x40vFrp4mIgzqe_3CNZkwRDsIrKjTm_5CHanY62KWYykxTtWIN2ExGPFWxFag-TvjKStdBuGdCEs0DIJ064tikFSuBD2IQTkv6TPX3cq4hnqUfw.diQxdBRDjWzu4KBe1yVpTBFeSvCWSDP7gUrXq1iYEWc&dib_tag=se&keywords=tablets+medicine&qid=1717061561&sprefix=tablets+medicin%2Caps%2C392&sr=8-7" class="btn btn-primary">Buy Now</a> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="col-sm-4"> 
+ <div class="card" style="width: 18rem;"> 
+ <img src="medi3.jpg" class="card-img-top" alt="..."> 
+ <div class="card-body"> 
+ <h5 class="card-title">Medicine</h5> 
+ <p class="card-text">Paracetamol is a medicine used to treat mild to moderate pain fever (high temperature).</p> 
+ <a href="https://www.amazon.in/Dolo-650-Blister-Pack-15-Tablets/dp/B084BDR9GB/ref=sr_1_1?brandId=berry&crid=26TUGCKF0M2T0&dib=eyJ2IjoiMSJ9.bD_vV0zcwLieLQbaCdVVycxv4gv3x1oHPI8U3l6HNXc5JTqYBlUD-3e1l81LguvqLy6MUTz9I88u9zYXR6IEdln1hb7PUXTPSy0NE-NZJd1B1gnafjqGl3oHsN9yx0gWxatT6BMgusF5MK-X8emZNfB52WX4CMHcOaIhMy8RKrjIJyJa7Vuh10vLFq4ZidU-WGKFwMcoRzGEwhLD4C2eDRwr3DG8j0ZwbaaOxoM-lDkZWCe8x3cZzDWYISIOQTdSEdJQ0dL61AtOjAkhrDpZmBlB74Xc8ggKdp0uRyMsrfg.K6pPrZHn1sihAOdDp_9M4LLEQ0ZEAmbVINPxRhF-q8w&dib_tag=se&keywords=paracetamol&qid=1717061640&sprefix=paracetamo%2Caps%2C444&sr=8-1" class="btn btn-primary">Buy Now</a> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="col-sm-4"> 
+ <div class="card" style="width: 18rem;"> 
+ <img src="medi4.jpg" class="card-img-top" alt="..."> 
+ <div class="card-body"> 
+ <h5 class="card-title">Medicine</h5> 
+ <p class="card-text"> Medicines are chemicals or compounds used to cure, halt, or prevent disease; ease symptoms; or help in the diagnosis of illnesses.</p> 
+ <a href="https://www.amazon.in/Himalaya-Himplasia-Tablets-30-Count/dp/B0090LL2MK/ref=sr_1_34?crid=3RIR04QT9WL5C&dib=eyJ2IjoiMSJ9.LI0-2blr8c6Hnr_7Fsv25GmdjEmJw7NIFNewKY6puxaRtP4QdbZ-WGd8_GKzs7zTVnyTGhb16LyLQRz0-XMxIqegJWnF4FK_vwWwwoCaOoiCYj-vHF-g4UWu8H5ET5TFPPU_xn8DM4NVTxjeQ7Lm6oUiUfLOCNVunGieeraBXplR1WSx3JR7F35Ldwo4y-m2Nszbp5Xv1iQsM5fZOBcPiBfnky4wWTdRhx6vhWw5lfacAfvGhsNJiAXWv3M8E0vMxPDWD6ScdS8FLldtIPPyrhD2IQTkv6TPX3cq4hnqUfw.9_E23OmfrogvB15Jhpflv2q-QjRQcCZL5Jbhy6rv8JA&dib_tag=se&keywords=tablets+for+medicine&qid=1717061795&sprefix=table+for+medicin%2Caps%2C428&sr=8-34" class="btn btn-primary">Buy Now</a> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="col-sm-4"> 
+ <div class="card" style="width: 18rem;"> 
+ <img src="medi5.jpg" class="card-img-top" alt="..."> 
+ <div class="card-body"> 
+ <h5 class="card-title">Medicine</h5> 
+ <p class="card-text">Capsules are easier to swallow and are used by manufacturers when the drug cannot be compacted into a solid tablet</p> 
+ <a href="https://www.amazon.in/Himalaya-Pilex-Tablets-60-Count/dp/B07D3ZN77Z/ref=sr_1_7?crid=2WOK5W097YWMW&dib=eyJ2IjoiMSJ9.grpvJwfoCFvbBTo1AbS7cjzriytcULRL2_m2En6ubnHt6oPhyL4CB62pMhE1PcENhEDxnCXLqwTj7yoO7LQ69qSXzO2SZsxIWd14h4B3PWqCYj-vHF-g4UWu8H5ET5TFBW9cjoZ2vV_QaLMnhEP8wnWfLS47qRAGY0fsy158ZLU0yRQVi_oEavfyjtA-x40vFrp4mIgzqe_3CNZkwRDsIrKjTm_5CHanY62KWYykxTtWIN2ExGPFWxFag-TvjKStdBuGdCEs0DIJ064tikFSuBD2IQTkv6TPX3cq4hnqUfw.diQxdBRDjWzu4KBe1yVpTBFeSvCWSDP7gUrXq1iYEWc&dib_tag=se&keywords=tablets+medicine&qid=1717061561&sprefix=tablets+medicin%2Caps%2C392&sr=8-7" class="btn btn-primary">Buy Now</a> 
+ </div> 
+ </div>
+
+ </div> 
+ <div class="col-sm-4"> 
+ <div class="card" style="width: 18rem;"> 
+ <img src="medi6.jpg" class="card-img-top" alt="..."> 
+ 
+ <div class="card-body"> 
+ <h5 class="card-title">Medicine</h5> 
+ <p class="card-text">B-Pink Tablet is a combination of vitamins and minerals. Ferrous ascorbate consists of iron and vitamin C</p> 
+ <a href="https://www.amazon.in/Dindayal-Aushadhi-Nervcare-Tablet-30Tablets/dp/B0B4T13GV6/ref=sr_1_39?crid=3RIR04QT9WL5C&dib=eyJ2IjoiMSJ9.LI0-2blr8c6Hnr_7Fsv25GmdjEmJw7NIFNewKY6puxaRtP4QdbZ-WGd8_GKzs7zTVnyTGhb16LyLQRz0-XMxIqegJWnF4FK_vwWwwoCaOoiCYj-vHF-g4UWu8H5ET5TFPPU_xn8DM4NVTxjeQ7Lm6oUiUfLOCNVunGieeraBXplR1WSx3JR7F35Ldwo4y-m2Nszbp5Xv1iQsM5fZOBcPiBfnky4wWTdRhx6vhWw5lfacAfvGhsNJiAXWv3M8E0vMxPDWD6ScdS8FLldtIPPyrhD2IQTkv6TPX3cq4hnqUfw.9_E23OmfrogvB15Jhpflv2q-QjRQcCZL5Jbhy6rv8JA&dib_tag=se&keywords=tablets+for+medicine&qid=1717061795&sprefix=table+for+medicin%2Caps%2C428&sr=8-39" class="btn btn-primary">Buy Now</a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <!-- cards end --> 
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384- 
+YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous"></script> 
+ </body> 
+</html><!doctype html> 
+<html lang="en"> 
+ <head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1">  <title>Bootstrap demo</title> 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384- 
+QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"> 
+ </head> 
+ <style>
+
+ .card{ 
+ width: 10%; 
+ } 
+ .card:hover{ 
+ background-color: rgb(156, 213, 236);  transform: scale(1.1); 
+ } 
+ .btn{ 
+ background-color: rgb(120, 186, 240); 
+ } 
+ .btn:hover{ 
+ background-color: black; 
+ transform: scale(1.1); 
+ } 
+ </style> 
+ <body> 
+  
+
+
+</body>
+</html>
